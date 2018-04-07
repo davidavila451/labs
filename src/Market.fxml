@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MarketController.MarketController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="800.0">
+         <children>
+            <Button id="apple" fx:id="apple" layoutX="90.0" layoutY="117.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Apple: $0.89">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="banana" fx:id="banana" layoutX="300.0" layoutY="117.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Banana: $0.27">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="carrot" fx:id="carrot" layoutX="510.0" layoutY="117.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-border-color: #000000; -fx-background-color: #ffffff;" text="Carrot: $0.89">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="food" fx:id="food" layoutX="90.0" layoutY="186.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Dog food: $7.29">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="eggplant" fx:id="eggplant" layoutX="300.0" layoutY="186.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Eggplant: $2.69">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="fennel" fx:id="fennel" layoutX="510.0" layoutY="186.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Fennel: $1.49">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="grapes" fx:id="grapes" layoutX="90.0" layoutY="259.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Grapes: $3.99">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="horse" fx:id="horse" layoutX="301.0" layoutY="259.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Horseradish: $0.59">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="ice" fx:id="ice" layoutX="510.0" layoutY="259.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Ice: $0.50">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="juice" fx:id="juice" layoutX="90.0" layoutY="333.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Juice: $2.39">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="kale" fx:id="kale" layoutX="301.0" layoutY="333.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Kale: $1.23">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="lemon" fx:id="lemon" layoutX="510.0" layoutY="333.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Lemon: $0.16">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button id="cart" fx:id="cart" layoutX="250.0" layoutY="424.0" mnemonicParsing="false" onAction="#handle" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #02a2ff;" text="View My Cart" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Text layoutX="290.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Market">
+               <font>
+                  <Font name="Comic Sans MS" size="64.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

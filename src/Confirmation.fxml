@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ConfirmationController.ConfirmationController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="800.0">
+         <children>
+            <Text layoutX="140.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Purchase Confirmed">
+               <font>
+                  <Font name="Comic Sans MS" size="56.0" />
+               </font>
+            </Text>
+            <Text id="receipt" fx:id="receipt" layoutX="375.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="350.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total:">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Text>
+            <Text id="total" fx:id="total" layoutX="407.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Text>
+            <Button id="market" fx:id="market" layoutX="250.0" layoutY="425.0" mnemonicParsing="false" onAction="#handle" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #02a2ff;" text="Return to Market" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

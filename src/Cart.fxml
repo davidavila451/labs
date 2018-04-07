@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CartController.CartController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="800.0">
+         <children>
+            <Text layoutX="290.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Cart">
+               <font>
+                  <Font name="Comic Sans MS" size="64.0" />
+               </font>
+            </Text>
+            <TableView id="table" fx:id="table" layoutX="25.0" layoutY="150.0" prefHeight="226.0" prefWidth="750.0">
+              <columns>
+                <TableColumn id="item" fx:id="item" prefWidth="229.0" text="Item" />
+                <TableColumn id="quant" fx:id="quant" minWidth="0.0" prefWidth="289.0" text="Quantity" />
+                  <TableColumn id="price" fx:id="price" prefWidth="231.0" text="Total Price" />
+              </columns>
+            </TableView>
+            <Button id="market" fx:id="market" layoutX="290.0" layoutY="416.0" mnemonicParsing="false" onAction="#handle" prefHeight="55.0" prefWidth="100.0" style="-fx-background-color: #02a2ff;" text="Return to Market" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Comic Sans MS" size="14.0" />
+               </font>
+            </Button>
+            <Button id="out" fx:id="out" layoutX="411.0" layoutY="416.0" mnemonicParsing="false" onAction="#handle" prefHeight="55.0" prefWidth="100.0" style="-fx-background-color: #02ed06;" text="Check Out" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="14.0" />
+               </font>
+            </Button>
+            <Text layoutX="600.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total:">
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font>
+            </Text>
+            <Text id="totalCost" fx:id="totalCost" layoutX="651.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
